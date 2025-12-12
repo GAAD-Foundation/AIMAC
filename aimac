@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+"""Main entry point for the aimac command."""
+
+import sys
+
+from src.aimac.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())

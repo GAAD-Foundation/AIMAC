@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+*.py[cod]
+*$py.class
+.coverage
+.pytest_cache/
+
+# Database
+data/aimac.db
+data/aimac.db-journal
+data/aimac.db-wal
+data/*.db-shm
+data/*.db*
+data/*-shm
+data/*-wal
+
+# Environment files (CRITICAL: never commit API keys)
+.env
+.envrc
+
+# Output artifacts
+output/
+data/logs/*.log
+data/logs/*.log.*
+data/cache/
+data/snapshots/
+
+# Temporary files
+tmp/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
